@@ -88,7 +88,8 @@
                                         <h4>Product <span>Total</span></h4>
                                     </a></li>
                         <?php
-                        $date = date("Y-m-d");
+                        date_default_timezone_set('Asia/Bangkok');
+                        $date = date("d-m-Y");
                         $time = date("H:i:s");
                         $value=0;
                         include "connect.php";
